@@ -8,11 +8,11 @@ n = int(input('Enter a natural number: '))
 numbers = list(range(-n,n+1))
 print(numbers)
 
-## Вариант 1 готовый алгоритм в Python:
+## Вариант 1 - готовый алгоритм в Python:
 random.shuffle(numbers)
 print(numbers)
 
-## Вариант 2 алгоритм, написанный когда-то на Pascal или на C, уже не помню:
+## Вариант 2 - алгоритм, написанный когда-то на Pascal или на C, уже не помню:
 for i in range(len(numbers)-1, 0, -1):
     r = random.randint(0, i-1)
     tmp = numbers[i]

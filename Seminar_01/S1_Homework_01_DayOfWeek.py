@@ -4,7 +4,7 @@
 # - 7 -> да
 # - 1 -> нет
 
-day = int(input('Please enter a number of day: '))
+day = int(input('Please enter the number of the day of the week: '))
 
 while day < 1 or day > 7:
     day = int(input('Week have only 7 days, please enter valid number: '))

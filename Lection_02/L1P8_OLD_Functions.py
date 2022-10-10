@@ -6,6 +6,6 @@ def func(x):
     else:
         return
 
-arg = 1
-print(func(arg))
-print(type(func(arg)))
+# arg = 1
+# print(func(arg))
+# print(type(func(arg)))
