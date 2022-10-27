@@ -18,3 +18,19 @@ def DecimalToBinary(dec_num):
 
 num = int(input('Enter decimal number please: '))
 print(*DecimalToBinary(num), sep = '')
+
+
+## Вариант 2:
+
+a = int(input('Введите число для перевода = '))
+b = ''
+while a != 0:
+    b = str(a % 2) + b
+    a = a // 2
+print(b)
+
+
+## Вариант 3:
+
+a= int(input('Введите число = '))
+print(bin(a))
