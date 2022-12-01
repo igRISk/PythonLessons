@@ -4,9 +4,6 @@
 
 ## Вариант 1:
 
-from array import array
-
-
 num = int(input('Enter decimal number please: '))
 lst1 = [0, 1]
 lst2 = []

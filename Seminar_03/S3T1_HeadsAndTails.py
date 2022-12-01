@@ -22,7 +22,6 @@ for char in op_letters:
     if maxq_p < qty_p:
         maxq_p = qty_p
 
-
 print(op_text, maxq_p, sep = ' -> ')
 
 # Вариант 2:

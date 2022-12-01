@@ -5,8 +5,6 @@
 
 ## Вариант 1:
 
-import numbers
-
 lst = list(map(int, input('Enter some numbers separated by spaces: ').split()))
 sumnum = 0
 
